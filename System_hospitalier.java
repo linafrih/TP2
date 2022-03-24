@@ -34,13 +34,14 @@ public class System_hospitalier {
 	}
 	
 	private String analyserRequete(Requête requête) {
-		// Analyser la requête
+		// La méthode prends en paramètres la requete,enregistre le nom du patient et les différents symptômes,puis elle retourne un message vers le patient que la requête est acceptée et elle est entrain d'être étudiée
 		return "requête analysée";
 	}
 	
 	private String comparerDonnes() {
-		// Comparaison des données
+		// La méthode compare les symptômes du patient avec la base de données de l'hopital et retourne un message au patient indiquant s'il a trouvé des similarités
 		return "Cluster trouvé";
 	}
 
 }
+
